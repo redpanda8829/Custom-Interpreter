@@ -1,0 +1,13 @@
+#!/home/ay445/Interpreter/sam
+set a to 39
+set b to 46
+set c to 15
+print a
+print b
+print c
+multiply c by a
+multiply a by b
+multiply b by c
+print a
+print b
+print c

@@ -1,0 +1,21 @@
+For this assignment, you are to write an interpreter for a simplistic language.  The language only supports single-letter variables: a, b, c, ..., z.  There are six types of statements in the language, set, add, subtract, multiply, divide, and print.  The print statement takes a single operand, the variable whose value to print in decimal.  The other statements each take two operands separated by an appropriate keyword.  If we have a program in our language such as:
+set x to 12
+set y to 3
+print y
+add x to y
+print y
+set z to 6
+divide y by z
+print y
+multiply y by z
+print y
+subtract y from z
+print z
+the output should be:
+3
+15
+2
+12
+-6
+You may assume the variables are all initialized to 0.  You may also assume there are no syntax errors in the input to the interpreter, but you must account for any amount of whitespace.  Because you've shown you know how to find characters in strings and to convert strings to numbers, you may use strchr and atoi here.  (You're also free to use your mystrtoint to support other bases if you wish.  If you do, I'd encourage you to add support for negative numbers to it.)  You may also use strncmp to compare strings.  However, you may not use strtok or any other tokenizing library function.  Read each line using fgets.  Note that fgets returns NULL at the end of the file.  If you have questions about what is and is not permitted, ask.
+Unlike other assignments, I want to see your test cases here.  Create at least 5 programs in this language and run them redirecting your interpreter's input from them.  In constructing your test cases, try to think of all the ways something could go wrong.  To make it more fun, start each program with the #! line that points to your interpreter and make them executable so you can run them at the command line.  (To do that, you'll need to make sure your interpreter ignores any line that starts with #.)

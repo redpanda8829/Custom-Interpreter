@@ -1,0 +1,7 @@
+#!/home/ay445/Interpreter/sam
+set k to 67
+set d to 67
+print k
+print d
+divide k by d
+print k

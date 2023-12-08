@@ -1,0 +1,11 @@
+#!/home/ay445/Interpreter/sam
+set w to 100
+set y to 49
+print y
+set g to 89
+set c to 46
+subtract c from y
+print y
+print c
+divide c by y
+print c

@@ -1,0 +1,7 @@
+#!/home/ay445/Interpreter/sam
+set x to 5
+print x
+set g to 8
+print g
+subtract x from g
+print g

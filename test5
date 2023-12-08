@@ -1,0 +1,9 @@
+#!/home/ay445/Interpreter/sam
+set x to 5
+print x
+set p to 43
+print p
+subtract x from p
+print p
+multiply x by p
+print x
